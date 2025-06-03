@@ -24,6 +24,7 @@ pip install ultralytics opencv-python
 Após a instalação, basta executar o script Python no terminal:
 python detector_pessoas.py <p>
 
+<p> Caso queira sair do vídeo enquanto ele está sendo mostrando, basta clicar em "Q"</p>
 <p>O sistema fará a análise do vídeo e, ao final do processamento, um arquivo chamado saida_dados.csv será gerado automaticamente com todas as informações detectadas, como quantidade de pessoas por frame e a simulação de consumo de energia.</p>
 
 <h1>Link para o Vídeo</h1>
