@@ -8,7 +8,7 @@ model = YOLO('yolov8n.pt')
 def simula_energia(qtd_pessoas, base_energia=100):
     return qtd_pessoas * base_energia
 
-video_path = 'video.mp4'
+video_path = 'video2.mp4'
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
