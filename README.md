@@ -15,6 +15,17 @@
 
 <p>Além disso, todos os dados obtidos são organizados e exportados para um relatório em formato CSV, usado para análise sobre padrões de ocupação e consumo energético, servindo como base para estratégias de eficiência energética e redução de desperdícios.</p>
 
+<h1>Instruções de Uso</h1>
+
+<p>Para executar o projeto, é necessário instalar as bibliotecas utilizadas.
+No terminal, digite:
+pip install ultralytics opencv-python
+  
+Após a instalação, basta executar o script Python no terminal:
+python detector_pessoas.py <p>
+
+<p>O sistema fará a análise do vídeo e, ao final do processamento, um arquivo chamado saida_dados.csv será gerado automaticamente com todas as informações detectadas, como quantidade de pessoas por frame e a simulação de consumo de energia.</p>
+
 <h1>Link para o Vídeo</h1>
 <p><a href="https://youtu.be/Fk8ZxU04ACA" target="_blank">https://youtu.be/Fk8ZxU04ACA</a></p>
 
